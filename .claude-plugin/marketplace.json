@@ -1,0 +1,11 @@
+{
+  "name": "workshop-marketplace",
+  "owner": { "name": "Aitor Poquet" },
+  "plugins": [
+    {
+      "name": "workshop",
+      "source": "./",
+      "description": "Teaching plugin: construction-crew metaphor for Claude Code agents, skills, and workflows."
+    }
+  ]
+}
