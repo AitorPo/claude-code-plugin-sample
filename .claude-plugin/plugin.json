@@ -1,0 +1,6 @@
+{
+  "name": "workshop",
+  "description": "Teaching plugin: construction-crew metaphor for Claude Code agents, skills, and workflows. Demonstrates when the main thread delegates to a specialist agent and when it handles the task itself.",
+  "version": "1.0.0",
+  "author": { "name": "Aitor Poquet" }
+}
