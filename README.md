@@ -44,23 +44,21 @@ If you internalise nothing else from this plugin, internalise this: **recognisin
 
 ## Setup — Claude Code
 
-### 1. Generate a marketplace token
+### 1. Add the marketplace
 
-Use whatever credentialled Git URL hosts the plugin. (Replace `<YOUR_TOKEN>` and the host below with what your team uses.)
-
-### 2. Add the marketplace
+Public GitHub repo, no token needed.
 
 ```
-/plugin marketplace add https://x-token-auth:<YOUR_TOKEN>@bitbucket.org/your-org/skills.git
+/plugin marketplace add https://github.com/AitorPo/claude-code-plugin-sample.git
 ```
 
-### 3. Install the plugin
+### 2. Install the plugin
 
 ```
-/plugin install workshop@workshop
+/plugin install workshop@claude-code-plugin-sample
 ```
 
-### 4. Install rules and agents (once per project, re-run after plugin updates)
+### 3. Install rules and agents (once per project, re-run after plugin updates)
 
 ```
 /workshop:install-all
@@ -165,6 +163,6 @@ Add to your project's `.claude/settings.json` so new developers get the marketpl
 
 ```json
 {
-  "extraKnownMarketplaces": ["https://x-token-auth:<YOUR_TOKEN>@bitbucket.org/your-org/skills.git"]
+  "extraKnownMarketplaces": ["https://github.com/AitorPo/claude-code-plugin-sample.git"]
 }
 ```
