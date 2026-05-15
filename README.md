@@ -55,7 +55,7 @@ Public GitHub repo, no token needed.
 ### 2. Install the plugin
 
 ```
-/plugin install workshop@claude-code-plugin-sample
+/plugin install workshop@workshop-marketplace
 ```
 
 ### 3. Install rules and agents (once per project, re-run after plugin updates)
